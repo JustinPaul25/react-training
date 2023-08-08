@@ -1,6 +1,5 @@
 {
-	"homepage": "https://JustinPaulLayan.github.io/react-training",
-	"name": "askrella-dchat-frontend",
+	"name": "react-training",
 	"private": true,
 	"version": "0.1.0",
 	"type": "module",
