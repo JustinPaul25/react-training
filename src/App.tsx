@@ -9,9 +9,9 @@ import Tariff from "./pages/Tariff";
 
 const App = () => {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/react-training">
 			<Routes>
-				<Route path="/react-training" element={<Layout />}>
+				<Route path="/" element={<Layout />}>
 					<Route index element={<Home />} />
 					<Route path="/autostrom" element={<Tariff />} />
 					<Route path="/warmestrom" element={<Faq />} />
