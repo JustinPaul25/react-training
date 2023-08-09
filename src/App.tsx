@@ -9,7 +9,7 @@ import Tariff from "./pages/Tariff";
 
 const App = () => {
 	return (
-		<BrowserRouter basename="/react-training">
+		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Layout />}>
 					<Route index element={<Home />} />

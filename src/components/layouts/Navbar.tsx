@@ -31,10 +31,10 @@ const Navbar: React.FC = () => {
                 </div>
             </div>
             <div className="container mx-auto lg:px-20 xl:px-8">
-                <nav className="bg-white px-7 lg:px-0">
-                    <div className="pt-5 pb-5 lg:pb-3 pt flex items-center">
+                <nav className="bg-white px-7 lg:px-0 xl:px-7">
+                    <div className="pt-5 pb-5 lg:pb-3 flex items-center">
                         <div className="flex items-center">
-                            <Link to="/"><img src="/images/simpleo-logo.svg" alt="" className="w-[160px] xl:w-[273px]"/></Link>
+                            <Link to="/"><img src="/images/simpleo-logo.svg" alt="" className="w-[160px] h-auto xl:w-[273px] xl:h-[75px] xl:-ml-[52px] ml-0"/></Link>
                         </div>
                         <div className="hidden lg:block ml-auto">
                             <div className="flex items-center space-x-2">
@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
                                 <NavbarLink to="/gas" text="Gas" />
                             </div>
                         </div>
-                        <div className="ml-9 xl:ml-14 bg-blue-dark rounded-lg pr-4 pl-4 xl:pr-6 xl:pl-3 py-2 hidden lg:flex items-start">
+                        <div className="ml-7 xl:ml-14 bg-blue-dark rounded-lg pr-4 pl-4 xl:pr-6 xl:pl-3 py-2 hidden lg:flex items-start">
                             <img src="/images/support-icon.svg" alt="" className="w-[62.03px] xl:w-[78.412px]"/>
                             <div className="ml-2 xl:ml-5 flex flex-col">
                                 <p className="text-white text-base xl:text-lg font-extrabold mb-1 xl:mb-2">Telefon Support</p>

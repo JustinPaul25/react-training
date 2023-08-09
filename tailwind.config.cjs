@@ -8,7 +8,9 @@ module.exports = {
 			'gray-medium': '#5B5B5B',
 			'border-stroke': '#D0DAD1',
 			'blue-light': '#1FA7DD',
-			'gray-extra-light': '#F1F1F1'
+			'gray-extra-light': '#F1F1F1',
+			'gray': '#DEDEDE',
+			'gray-light': '#E9E7E8',
 		},
 		extend: {
 			fontFamily: {

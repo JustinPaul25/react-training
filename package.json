@@ -5,10 +5,10 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"deploy": "gh-pages -d dist",
 		"build": "tsc && vite build",
 		"prettier": "npx prettier --write .",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"host": "vite --host"
 	},
 	"dependencies": {
 		"gh-pages": "^5.0.0",
